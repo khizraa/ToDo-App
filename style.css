@@ -1,0 +1,214 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    width: 3em;
+    height: 3em;
+    font-size: 2em;
+    border-radius: 50%;
+
+
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12em;
+}
+
+.second-div {
+    width: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.526);
+}
+
+.third-div {
+    width: 31em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    background-color: rgb(34, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#in {
+    width: 23em;
+    font-size: 1em;
+    padding: 0.5em;
+    background-color: rgba(65, 65, 65, 0.855);
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 1.5em;
+    padding-inline-start: 1.1em;
+}
+
+#in::placeholder {
+    color: rgb(193, 191, 191);
+}
+
+#add {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 0.5em;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    padding: 0.51em;
+    background-color: rgb(255, 255, 255);
+}
+
+.fourth-div {
+    margin-bottom: 3em;
+}
+
+.new_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+.back-color {
+    background-color: rgba(29, 28, 28, 0.855);
+}
+
+.check {
+    color: rgb(6, 223, 6);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+}
+
+.bin {
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+}
+
+.square {
+    /* background-color: white; */
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.square-check {
+    /* background-color: white; */
+    color: rgb(6, 223, 6);
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.cross {
+    color: red;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+}
+
+.textarea {
+    width: 18em;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    font-size: 1.1em;
+    padding: 1em;
+    line-height: 1.3em;
+
+}
+
+:focus {
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 549px) {
+    .second-div {
+        width: 26em;
+    }
+
+    .third-div {
+        width: 22em;
+    }
+
+    #in {
+        width: 12em;
+        font-size: 1.1em;
+    }
+
+    .fourth-div {
+        width: 18.1em;
+    }
+
+    .textarea {
+        width: 8em;
+    }
+
+    /* .new_div{width: ;} */
+    h1 {
+        font-size: 2.8em;
+    }
+
+    .new_div {
+        width: 18.3em;
+    }
+}
+
+
+@media screen and (max-width: 376px) {
+    .second-div {
+        width: 19em;
+    }
+
+    .third-div {
+        width: 18em;
+    }
+
+    #in {
+        width: 10.3em;
+    }
+
+    .textarea {
+        width: 6.4em;
+    }
+
+    .new_div {
+        width: 16.3em;
+    }
+
+    .fourth-div {
+        width: 16.5em;
+    }
+
+}
